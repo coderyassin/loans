@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches: [ "master", "section8" ]
+    branches: [ "master", "section8", "section9" ]
   pull_request:
-    branches: [ "master", "section8" ]
+    branches: [ "master", "section8", "section9" ]
 
 jobs:
   build:
