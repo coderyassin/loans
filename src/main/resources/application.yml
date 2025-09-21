@@ -4,7 +4,7 @@ spring:
   application:
     name: loans
   config:
-    import: configserver:http://localhost:8071/
+    import: configserver:http://configserver:8071/
   datasource:
     url: jdbc:mysql://192.168.145.108:3307/loansdb
     driverClassName: com.mysql.cj.jdbc.Driver
